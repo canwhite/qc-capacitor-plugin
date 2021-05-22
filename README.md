@@ -74,6 +74,8 @@ project中使用的版本为"@capacitor/ios": "3.0.0", @capacitor/cli也是next
 
 推荐本地加载
 ```
+yarn install
+yarn build
 npm i ../moduleName
 
 ```
