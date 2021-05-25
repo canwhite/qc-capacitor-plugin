@@ -174,10 +174,11 @@ PS:
 在project中install插件之后，通过ionic cap sync
 会将plugin中实现的ios/android部分copy加载在原生项目中
 
-js这边通过调用js部分的实现来唤起传值，原生这边执行提前写好的逻辑和回调
+plugin中js部分主要是创建接口，和进行一些传值
+原生部分才是真正的实现，类似于工厂模式
 
-js唤起部分：
 
+project中js调用插件中的接口：
 
 import {Echo} from 'echo'
 
